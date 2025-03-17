@@ -1,0 +1,55 @@
+# ---- General macOS system files ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Xcode-specific files ----
+# Xcode project user data (can be safely ignored)
+*.xcworkspace/
+*.xcuserdatad/
+*.xcuserdata/
+*.xcdebugger/
+*.xccheckout
+*.moved-aside
+DerivedData/
+.idea/
+*.mode1v3
+*.mode2v3
+*.pbxuser
+!default.pbxuser
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# ---- Xcode Derived Data & Logs ----
+# DerivedData and Index files
+DerivedData/
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/
+*.xcodeproj/project.xcworkspace/
+*.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.xcodeproj/xcdebugger/
+*.xcdebugger/
+
+# User builds
+build/
+
+# Build logs
+*.xcactivitylog
+*.xccheckout
+
+# ---- Vim files ----
+*.swp
+*.swo
+*.swn
+*.un~
+.netrwhist
+
+# XCodeGen generated files
+simpletest.xcodeproj/

@@ -1,0 +1,10 @@
+{
+  "name": "simpletest",
+  "targets": {
+    "simpletest": {
+      "platform": "macOS",
+      "deploymentTarget": "15.2",
+      "sources": ["main.swift"]
+    }
+  }
+}
